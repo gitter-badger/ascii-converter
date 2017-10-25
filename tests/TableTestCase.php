@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Tests\AsciiTable;
+namespace ToolkitLab\ASCII\Test;
 
 use PHPUnit\Framework\TestCase;
-use Tools\AsciiTable\Table;
+use ToolkitLab\ASCII\Table;
 
 class TableTestCase extends TestCase
 {

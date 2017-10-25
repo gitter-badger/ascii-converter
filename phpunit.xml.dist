@@ -2,7 +2,7 @@
 <phpunit bootstrap="vendor/autoload.php"
          backupGlobals="false"
          backupStaticAttributes="false"
-         colors="true"
+         colors="false"
          verbose="true"
          forceCoversAnnotation="true"
          convertErrorsToExceptions="true"
@@ -12,9 +12,7 @@
          stopOnFailure="false">
     <testsuites>
         <testsuite name="Config Test Suite">
-            <file>tests/AsciiTableFormatterTest.php</file>
-            <file>tests/TableTest.php</file>
-            <exclude>tests/TableTestCase.php</file>
+            <directory>tests</directory>
         </testsuite>
     </testsuites>
     <logging>

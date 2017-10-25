@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\AsciiTable;
+namespace ToolkitLab\ASCII\Test;
 
-use Tools\AsciiTable\Formater\MarkdownFormater;
-use Tools\AsciiTable\Formater\MysqlFormater;
-use Tools\AsciiTable\Formater\TableFormater;
-use Tools\AsciiTable\Formater\UnicodeFormater;
-use Tools\AsciiTable\Formater\DotsFormater;
+use ToolkitLab\ASCII\Formater\MarkdownFormater;
+use ToolkitLab\ASCII\Formater\MysqlFormater;
+use ToolkitLab\ASCII\Formater\TableFormater;
+use ToolkitLab\ASCII\Formater\UnicodeFormater;
+use ToolkitLab\ASCII\Formater\DotsFormater;
 
 class AsciiTableFormatterTest extends TableTestCase
 {

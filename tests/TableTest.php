@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Tests\AsciiTable;
+namespace ToolkitLab\ASCII\Test;
 
 
 use phpDocumentor\Reflection\Types\This;
